@@ -29,7 +29,7 @@ Requirements:
 Visual Studio 2019 or newer  
 
 Visual Studio 2019 or newer  
-Platform: Windows x64  
+Platform: Windows x64  or Windows x32
 
 # Project Type: DLL (Dynamic Link Library)
 
