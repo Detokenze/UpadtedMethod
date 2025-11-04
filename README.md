@@ -26,7 +26,7 @@ Make sure you have Python 3.7+ installed and install dependencies:
 
 # 🧩 2. Build the DLL (C++ Project)  
 Requirements:  
-Visual Studio 2019 or newer  
+Visual Studio 2020 or newer  
 
 Visual Studio 2019 or newer  
 Platform: Windows x64  or Windows x32
