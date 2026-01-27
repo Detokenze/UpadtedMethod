@@ -1,5 +1,8 @@
 # UpadtedMethod 2025
 An updated way to know the functionalities of Respondus Lockdown Browser 
+This tool is for educational and research purposes only.
+
+ JOIN OUR DISCORD : https://discord.gg/TDptGgH9HM
 
 # Features
 -✅ Alt tab with ctrl + left  
