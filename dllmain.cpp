@@ -15,7 +15,7 @@
 
 bool isFocusInstalled = false; // Global flag
 
-// create global hWND variable
+// create global hWND variable.
 HWND focusHWND = NULL;
 HWND bringWindowToTopHWND = NULL;
 HWND setWindowFocusHWND = NULL;

@@ -25,6 +25,7 @@ for task in psutil.process_iter(['name']):
 print("Monitoring for target process...")
 
 while True:
+    
     found = False
     for task in psutil.process_iter(['name']):
         task_name = task.name()
