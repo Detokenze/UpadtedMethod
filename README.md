@@ -1,4 +1,4 @@
-# UpadtedMethod 2025
+# UpadtedMethod 2026
 An updated way to know the functionalities of Respondus Lockdown Browser 
 This tool is for educational and research purposes only.
 
