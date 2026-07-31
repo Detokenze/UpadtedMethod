@@ -68,7 +68,9 @@ Make sure the DLL file is built and available in either of these paths:
 Launch the target application (e.g., LockDownBrowser.exe).  
 
 Run the injector:  
-`python inject.py`  
+```
+python inject.py  
+```
 
 The script:  
 

@@ -9,7 +9,7 @@ dll_file = os.path.join(os.getcwd(), "DLLHooks.dll")
 if not os.path.exists(dll_file):
     dll_file = os.path.join(os.getcwd(), "DLLHooks/Release/DLLHooks.dll")
     if not os.path.exists(dll_file):
-        raise FileNotFoundError("DLLHooks.dll not found in expected directories.")
+        print("Warning: DLLHooks.dll not found in expected directories. Continuing without a DLL (injection will be skipped).")
 
 monitored_process = "LockDownBrowser"
 
@@ -34,7 +34,10 @@ while True:
             print(f"Target detected: {task_name} (PID: {pid})")
             try:
                 agent.attach_to_pid(pid)
-                agent.inject_shared_library(dll_file)
+                if os.path.exists(dll_file):
+                    agent.inject_shared_library(dll_file)
+                else:
+                    print("DLL file not present; skipping injection step.")
                 agent.cleanup()
                 found = True
                 break
