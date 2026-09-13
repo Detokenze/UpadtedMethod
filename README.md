@@ -1,4 +1,5 @@
 # UpadtedMethod 2026 (Works with the latest lockdown version)
+![Repository Banner](UpdatedMethod/sJO29-GbgTE-HD.jpg)
 An updated way to know the functionalities of Respondus Lockdown Browser 
 This tool is for educational and research purposes only.
 
